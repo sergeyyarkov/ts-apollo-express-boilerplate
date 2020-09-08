@@ -1,6 +1,7 @@
 # import Book from './Book.graphql'
+# import User from './User.graphql'
 
 type Query {
-  login: String
   books: [Book]
+  users: [User]
 }
