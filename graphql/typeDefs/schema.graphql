@@ -1,0 +1,6 @@
+# import Book from './Book.graphql'
+
+type Query {
+  login: String
+  books: [Book]
+}
